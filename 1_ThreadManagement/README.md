@@ -63,4 +63,16 @@ Processes running on a single processor by performing context switching, gives u
 
 On the other hand, when each of the processes can run on different cores/processors at the same time, this is true parallelism.
 
+## Lambda Functions
+
+Different syntaxes of lambda function
+
+<img src="images/11.png" width=500 height=200>
+
+
+## Joinability of threads
+
+<img src="images/12a.png" width=500 height=150>
+<img src="images/12b.png" width=500 height=200>
+
 
