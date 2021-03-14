@@ -75,4 +75,27 @@ Different syntaxes of lambda function
 <img src="images/12a.png" width=500 height=150>
 <img src="images/12b.png" width=500 height=200>
 
+Properly constructed threads are joinable. The word "Properly constructed" means a callable function must be passed as an argument to the thread class constructor. Ex: `std::thread thread_1(func_1)`. 
 
+On the otherhand the default constructed thread is non joinable. Ex: `std::thread thread_2`. `thread_2` is not joinable.
+
+<img src="images/13.png" width=500 height=100>
+
+## Join and detach functions
+
+### Join
+
+<img src="images/14.png" width=500 height=200>
+
+If thread 2 is launched from thread 1, thread 1 is blocked until the thread 2 is finished executing. 
+
+<img src="images/15.png" width=500 height=200>
+
+
+### Detach 
+
+<img src="images/16.png" width=500 height=200>
+
+In this case, thread 1 is not blocked when thread 2 is launched from thread 1.
+
+<img src="images/17.png" width=500 height=200>
