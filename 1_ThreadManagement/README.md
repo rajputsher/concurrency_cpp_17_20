@@ -102,4 +102,4 @@ In this case, thread 1 is not blocked when thread 2 is launched from thread 1.
 
 ## Better Join Mechanism
 
-<img src="images/18.png" width=500 height=200>
+<img src="images/18.png" width=500 height=150>
