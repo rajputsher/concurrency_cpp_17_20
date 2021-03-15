@@ -99,3 +99,7 @@ If thread 2 is launched from thread 1, thread 1 is blocked until the thread 2 is
 In this case, thread 1 is not blocked when thread 2 is launched from thread 1.
 
 <img src="images/17.png" width=500 height=200>
+
+## Better Join Mechanism
+
+<img src="images/18.png" width=500 height=200>
